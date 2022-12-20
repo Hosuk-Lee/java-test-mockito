@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    testImplementation "org.junit.jupiter:junit-jupiter:5.8.2"
+    testImplementation "org.assertj:assertj-core:3.21.0"
+
+    // mockito core library
+    testImplementation "org.mockito:mockito-core:4.10.0"
+    // mockito junit extention
+    testImplementation "org.mockito:mockito-junit-jupiter:4.10.0"
+
+}
+
+test {
+    // https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/testing/Test.html
+    // Discover and execute JUnit Platform-based tests
+    useJUnitPlatform()
+}

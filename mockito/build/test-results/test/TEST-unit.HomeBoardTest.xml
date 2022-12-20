@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unit.HomeBoardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-20T08:53:26" hostname="hosukui-MacBookPro.local" time="0.229">
+  <properties/>
+  <testcase name="service_stubbing3()" classname="unit.HomeBoardTest" time="0.229"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
